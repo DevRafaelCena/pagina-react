@@ -1,0 +1,90 @@
+.nav1{
+    background-color: white;
+    display:flex;
+    justify-content:space-around ;
+    padding: none;
+}
+.menuitem{
+    color:black;
+    font-weight:bold;
+}
+button{
+    border: none;
+    background-color: none;
+    color:none;
+    padding: none;
+    background: none;
+}
+.nav{
+    padding: none;
+}
+.login{  
+    width: 200px;   
+}
+.footer{
+    justify-content: center;
+    color: black;
+    font-weight:bold;
+}
+.face{
+    color:#3b5998;
+  font-size: 30px;
+}
+.git{
+    color:black;
+  font-size: 30px;
+}
+  
+.row{
+    justify-content: center;
+}
+.cartoes{
+    margin-left: 10px; 
+    justify-content: center;
+   
+}
+.cardTexto{
+    height: 5vh;
+}
+
+.carrousel{
+display: flex;
+    width: 100%;
+    height: 30vh;
+    align-content:center;
+}
+.d-block{
+    height: 30vh;
+}
+@media (max-width:640px){
+    .carrousel{
+        display: flex;
+            width: 100%;
+            height: 40vh;
+            align-content:center;
+        }
+        .d-block{
+            height: 40vh;
+        }
+
+}
+.logotipo{
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+
+}
+.itensMenu{
+    display:flex;   
+    justify-content:space-between ;     
+    
+}
+header{
+    display:flex;
+    justify-content:space-around ;
+    padding: 5px;
+    
+}
+.cartoes{
+    margin: 10px;
+}
