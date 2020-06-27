@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col'
 
 function CardServico(){
     return(
-        <Container fluid >
+        <Container flex >
             <Row   xs={3} md={6} lg={12}>
             <Col className ="cartoes" xs={12} md={6} lg={3}>
 <Card   style={{ width: '18rem' }}>
@@ -27,7 +27,7 @@ function CardServico(){
   <Button variant="primary">Saiba mais</Button>
 </Card>
 </Col>
-<Col className ="cartoes" xs={12} md={6} lg={3}>
+<Col className="cartoes" xs={12} md={6} lg={3}>
 
 <Card style={{ width: '18rem' }}>
   <Card.Img style={{ height: '200px', }} variant="top" src={server} />

@@ -10,15 +10,15 @@ import {AiFillGithub } from "react-icons/ai";
 
 function Footer(){
     return(
-        <div class="footer">
+        <div className="footer">
             <Container fluid >
             <Row  xs={12} md={12} lg={12}>
-            <footer  >
+            <footer className="site-footer"  >
             <Col  md={{ span: 12, offset:1 }} >
      
   <p >@Cena Tecnologia - 2020 | Todos os direitos reservados  |
-        <a target="_blank" href="https://www.facebook.com/Cenatecnologia"><button><AiFillFacebook class="face"/></button></a>
-        <a target="_blank" href="https://github.com/DevRafaelCena"><button><AiFillGithub class="git"/></button></a>
+        <a target="_blank" href="https://www.facebook.com/Cenatecnologia"><button><AiFillFacebook className="face"/></button></a>
+        <a target="_blank" href="https://github.com/DevRafaelCena"><button><AiFillGithub className="git"/></button></a>
   
         </p>
   
